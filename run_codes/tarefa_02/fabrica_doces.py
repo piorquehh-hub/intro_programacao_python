@@ -1,8 +1,18 @@
 ## versao normal
 
-qtd_doces = int(input("Digite a quantidade de doces: "))
-qtd_pacotes = int(input("Digite a quantidade de pacotes: "))
+# qtd_doces = int(input("Digite a quantidade de doces: "))
+# qtd_pacotes = int(input("Digite a quantidade de pacotes: "))
+
+# n_doces = qtd_doces // qtd_pacotes
+
+# print("Quantidade de doces por pacote:", n_doces)
+
+
+# versao runcodes
+
+qtd_doces = int(input())
+qtd_pacotes = int(input())
 
 n_doces = qtd_doces // qtd_pacotes
 
-print("Quantidade de doces por pacote:", n_doces)
+print(n_doces)

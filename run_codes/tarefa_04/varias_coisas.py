@@ -1,7 +1,7 @@
 # versao runcodes
 
-v1 = input()
-v2 = input()
+v1 = f"{float(input().strip()):.1f}"
+v2 = input().strip()
 
 n1 = float(v1)
 n2 = float(v2)
