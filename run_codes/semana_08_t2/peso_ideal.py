@@ -1,6 +1,6 @@
 def main():
-    altura = float(input())
-    sexo = int(input())
+    altura = float(input("Altura: "))
+    sexo = int(input("Sexo 1-macho / 2-feme: "))
 
     imc = 0
     if sexo == 1:
