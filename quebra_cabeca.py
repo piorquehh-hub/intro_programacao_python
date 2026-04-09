@@ -101,6 +101,7 @@ def formatar_txt(txt, largura=80):
     return textwrap.fill(txt, width=largura)
 
 # usei beatifulsoup por ser mais facil de utilizar
+# o codigo original retornava todo o html do site, pois o site foi atualizado.
 # o try e except sao para dar mais robustes e feedback 
 def horoscopo(signo_desejado):
     import urllib.request
